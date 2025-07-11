@@ -1,0 +1,4 @@
+var namepattern= /^[A-Za-z]{4,25}$/;
+var emailpattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+var phonepattern=/^\d{10}$/;
+var passwordpattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
